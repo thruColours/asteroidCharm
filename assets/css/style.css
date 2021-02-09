@@ -1,0 +1,409 @@
+#bodi {
+  width: auto;
+  height: 272vw;
+  background-color: #F0F8FF;
+  margin: 0 auto;
+}
+
+#topBox {
+  width: 100vw;
+  height: 20vh;
+}
+
+#logo {
+  width: 20%;
+  height: 100%;
+}
+
+#logoMain {
+  width: 22%;
+  height: 22%;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#logoMain img {
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#logoRingOne {
+  width: 22%;
+  height: 22%;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#logoRingOne img {
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  /* animation-fill-mode: forwards; */
+}
+
+#logoRingTwo {
+  width: 22%;
+  height: 22%;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+}
+
+#logoRingTwo img {
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+}
+
+#logoRingThree {
+  width: 22%;
+  height: 22%;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#logoRingThree img {
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+}
+
+@keyframes pulse {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#poem {
+  font-family: 'Goudy Bookletter 1911', serif;
+  /* font-size: 1.3vw; */
+  font-size: 2.5vmin;
+  position: absolute;
+  width: 20%;
+  height: 25%;
+
+  top: 47%;
+  left: 11%;
+}
+
+#handCharm img {
+  height: 100%;
+  width: auto;
+}
+
+#handCharm {
+  height: 60vmin;
+  width: auto;
+
+  position: absolute;
+  right: 34vmin;
+  top: 30vmin;
+}
+
+#charmGlow {
+  background-color: #FFD700;
+  height: 10vmin;
+  width: 10vmin;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 56vmin;
+  right: 57vmin;
+
+  z-index: 1;
+
+  animation-name: glowPulse;
+  animation-duration: 3s;
+  animation-direction: alternate;;
+  animation-iteration-count: infinite;
+
+  filter: blur(7px);
+}
+
+@keyframes glowPulse {
+  from {transform: scale(2); opacity: 0;}
+  to{transform: scale(3); opacity: 0.4;}
+
+}
+
+#howItWorks img {
+  height: 100%;
+  width: auto;
+}
+
+#howItWorks {
+  height: 19vmin;
+  width: 132vmin;
+
+  position: absolute;
+  left: 26vmin;
+  top: 130vmin;
+}
+
+#hiwOne {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 2.8vmin;
+  position: relative;
+  width: 2.2%;
+  height: 25%;
+
+  padding-top: 2%;
+  /* left: 1%; */
+
+  display: table-cell;
+}
+
+#hiwTwo {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 2.8vmin;
+  position: relative;
+  width: 2%;
+  height: 25%;
+
+  /* top: 5%; */
+  /* left: 15%; */
+
+  display: table-cell;
+}
+
+#hiwThree {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 2.8vmin;
+  position: relative;
+  width: 2%;
+  height: 25%;
+
+  /* top: 5%; */
+  /* left: 1%; */
+
+  display: table-cell;
+}
+
+#hiwFour {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 2.8vmin;
+  position: relative;
+  width: 1.5%;
+  height: 25%;
+
+  /* top: 5%; */
+  /* left: 1%; */
+
+  display: table-cell;
+}
+
+#mainTextCntnr {
+  height: 50vmin;
+  width: 133vmin;
+
+  position: absolute;
+  left: 23.75vmin;
+  top: 200vmin;
+}
+
+#title {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 5.5vmin;
+  text-align: center;
+}
+
+#mainText {
+  padding-top: 3%;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 3vmin;
+  text-align: left;
+}
+
+#earthSteroid {
+  height: 50vmin;
+  width: 70vmin;
+
+  position: absolute;
+  left: 23vmin;
+  top: 280vmin;
+}
+
+#earth {
+  height: 100%;
+  width: auto;
+}
+
+#earth img {
+  padding-top: 10%;
+  padding-left: 27.5%;
+  height: 70%;
+  width: auto;
+}
+
+#asteroid {
+  height: 20%;
+  width: auto;
+}
+
+#asteroid img {
+  height: 40%;
+  width: auto;
+  position: relative;
+  left: 50%;
+
+  animation: zoom 2.5s linear infinite normal, glowPulse2 2.5s linear infinite normal;
+  /* animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear; */
+}
+
+@keyframes zoom {
+  0% {left: 0%; transform: rotate(0deg);}
+  50% {left: 50%; transform: rotate(180deg);}
+  100% {left: 100%; transform: rotate(360deg);}
+}
+
+#holdingCharm {
+  height: 21vmin;
+  width: 11vmin;
+
+  position: absolute;
+  left: 134vmin;
+  top: 305vmin;
+}
+
+#figure {
+  height: 100%;
+  width: auto;
+}
+
+#figure img {
+  height: 100%;
+  width: auto;
+  position: relative;
+  z-index: 1;
+}
+
+#charmGlow2 {
+  background-color: #FFD700;
+  height: 5vmin;
+  width: 5vmin;
+  border-radius: 50%;
+
+  position: absolute;
+  right: 66%;
+  top: 14%;
+
+  z-index: 1;
+
+  animation-name: glowPulse2;
+  animation-duration: 2.5s;
+  /* animation-delay: 0.5s; */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+  filter: blur(6px);
+}
+
+@keyframes glowPulse2 {
+  0% {opacity: 0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 0;}
+}
+
+#availableContact {
+  height: 20vmin;
+  width: 133vmin;
+
+  position: absolute;
+  left: 27vmin;
+  top: 360vmin;
+}
+
+#available {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 5.5vmin;
+  text-align: center;
+}
+
+#contact {
+  padding-top: 3%;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 3.5vmin;
+  text-align: center;
+}
+
+#viDiv {
+  position: absolute;
+  left: 42vmin;
+  top: 410vmin;
+
+  height: auto;
+  width: 100vmin;
+}
+
+#creator {
+  padding-bottom: 2%;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 3vmin;
+  color: black;
+  text-align: left;
+}
+
+#astCount {
+  position: absolute;
+  height: 5vmin;
+  width: 50vmin;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 2.5vmin;
+
+  top: 494vmin;
+  left: 72vmin;
+
+  padding-bottom: 1vmin;
+}
+
+#counter {
+  position: relative;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size:5vmin;
+  display: inline-block;
+}
