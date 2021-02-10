@@ -116,6 +116,14 @@
   to {opacity: 1;}
 }
 
+#poemHandCont {
+  position: absolute;
+  width: 100vw;
+  height: 60vmin;
+  top: 30vmin;
+
+}
+
 #poem {
   font-family: 'Goudy Bookletter 1911', serif;
   /* font-size: 1.3vw; */
@@ -124,8 +132,19 @@
   width: 20%;
   height: 25%;
 
-  top: 47%;
+  top: 29%;
+  /* top: 47vmin; */
   left: 11%;
+  /* left: 11vw; */
+
+  display: inline-block;
+}
+
+#handCharmCont {
+  height: 100%;
+  width: 50%;
+  float: left;
+  display: inline-block;
 }
 
 #handCharm img {
@@ -134,23 +153,27 @@
 }
 
 #handCharm {
-  height: 60vmin;
+  /* height: 60vmin; */
+  height: 100%;
   width: auto;
 
   position: absolute;
-  right: 34vmin;
-  top: 30vmin;
+  /* right: 34vmin; */
+  right: 14%;
+  /* top: 30vmin; */
+  /* display: inline-block; */
 }
 
 #charmGlow {
   background-color: #FFD700;
-  height: 10vmin;
-  width: 10vmin;
+  height: 15%;
+  width: 5%;
   border-radius: 50%;
 
   position: absolute;
-  top: 56vmin;
-  right: 57vmin;
+  top: 45%;
+  /* right: 57vmin; */
+  right: 26%;
 
   z-index: 1;
 
@@ -168,18 +191,34 @@
 
 }
 
+#hiwCont {
+  height: 19vmin;
+  width: 100vw;
+
+  position: absolute;
+  /* margin: auto; */
+  /* left: 16.5vw; */
+  /* padding-left: 15vw;
+  padding-right: 15vw; */
+  top: 130vmin;
+}
+
 #howItWorks img {
   height: 100%;
   width: auto;
+  margin: auto;
 }
 
 #howItWorks {
-  height: 19vmin;
+  height: 100%;
   width: 132vmin;
 
-  position: absolute;
-  left: 26vmin;
-  top: 130vmin;
+  position: relative;
+  margin: auto;
+  /* left: 16.5vw; */
+  /* padding-left: 15vw;
+  padding-right: 15vw; */
+  /* top: 130vmin; */
 }
 
 #hiwOne {
@@ -236,10 +275,11 @@
 
 #mainTextCntnr {
   height: 50vmin;
-  width: 133vmin;
+  /* width: 133vmin; */
+  width: 100vw;
 
   position: absolute;
-  left: 23.75vmin;
+  /* left: 14.25vw; */
   top: 200vmin;
 }
 
@@ -247,6 +287,9 @@
   font-family: 'Goudy Bookletter 1911', serif;
   font-size: 5.5vmin;
   text-align: center;
+  width: 80vmin;
+  margin: auto;
+
 }
 
 #mainText {
@@ -254,15 +297,28 @@
   font-family: 'Goudy Bookletter 1911', serif;
   font-size: 3vmin;
   text-align: left;
+  width: 132vmin;
+  margin: auto;
+}
+
+#earthSteroidCont {
+  height: 50vmin;
+  width: 100vw;
+  top: 280vmin;
+  /* margin: auto; */
+  position: absolute;
 }
 
 #earthSteroid {
   height: 50vmin;
-  width: 70vmin;
+  width: 41%;
 
-  position: absolute;
-  left: 23vmin;
-  top: 280vmin;
+  position: relative;
+  left: 7%;
+  /* left: 11vw; */
+  /* left: 23vmin; */
+  /* top: 280vmin; */
+  display: inline-block;
 }
 
 #earth {
@@ -302,12 +358,20 @@
 }
 
 #holdingCharm {
-  height: 21vmin;
-  width: 11vmin;
+  /* height: 21vmin;
+  width: 11vmin; */
 
-  position: absolute;
-  left: 134vmin;
-  top: 305vmin;
+  height: 42%;
+  width: auto;
+
+  position: relative;
+  left: 32%;
+  bottom: 10%;
+  /* left: 134vmin; */
+  /* left: 71.75vw; */
+  /* top: 305vmin; */
+
+  display: inline-block;
 }
 
 #figure {
@@ -351,10 +415,11 @@
 
 #availableContact {
   height: 20vmin;
-  width: 133vmin;
+  width: 100vw;
 
   position: absolute;
-  left: 27vmin;
+  /* left: 27vmin; */
+  /* left: 14.5vw; */
   top: 360vmin;
 }
 
@@ -362,6 +427,7 @@
   font-family: 'Goudy Bookletter 1911', serif;
   font-size: 5.5vmin;
   text-align: center;
+  margin: auto;
 }
 
 #contact {
@@ -369,41 +435,81 @@
   font-family: 'Goudy Bookletter 1911', serif;
   font-size: 3.5vmin;
   text-align: center;
+  margin: auto;
+}
+
+#viDivCont {
+  /* display: block; */
+  position: absolute;
+  top: 410vmin;
+  width: 100vw;
+  padding-bottom: 1vmin;
 }
 
 #viDiv {
-  position: absolute;
-  left: 42vmin;
-  top: 410vmin;
+  position: relative;
+  /* left: 42vmin; */
+  /* top: 410vmin; */
+
+  margin: auto;
 
   height: auto;
-  width: 100vmin;
+  /* width: 100vmin; */
+  width: 60%;
 }
 
 #creator {
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   font-family: 'Goudy Bookletter 1911', serif;
   font-size: 3vmin;
   color: black;
   text-align: left;
 }
 
-#astCount {
+/* #astCountCont {
+  display: block;
   position: absolute;
-  height: 5vmin;
-  width: 50vmin;
-  font-family: 'Goudy Bookletter 1911', serif;
-  font-size: 2.5vmin;
-
   top: 494vmin;
-  left: 72vmin;
+  height: 6vmin;
+  width: 100vw;
+  padding-top: 1vmin;
+  /* justify-content: center; */
+/* } */
 
-  padding-bottom: 1vmin;
+#astCount {
+  position: relative;
+  /* height: 5vmin;
+  width: 50vmin; */
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 3vmin;
+
+  /* top: 494vmin; */
+  /* left: 72vmin; */
+  /* left: 38.5vw; */
+
+  /* padding-bottom: 1vmin; */
+
+  width: 30%;
+  height: auto;
+
+  text-align: center;
+  margin: auto;
+
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 #counter {
   position: relative;
   font-family: 'Goudy Bookletter 1911', serif;
-  font-size:5vmin;
+  font-size: 6vmin;
   display: inline-block;
+
+  width: 15%;
+  height: auto;
+
+  padding-top: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+  margin: auto;
 }
